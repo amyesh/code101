@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    font-family: futura;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  header {
+    padding: 10px;
+    background: lavender;
+    color: black;
+    text-shadow: 4px 4px #fff;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  nav {
+    background-color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  section {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    min-height: 800px;
+  }
+  
+  section img {
+    margin-top: 20px;
+  }
+  
+  footer {
+    clear: left;
+    padding: 10px;
+    background: lavender;
+    text-align: right;
+  }
+
+  #blurbs {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  #blurbs article {
+      width: 30%;
+  }
